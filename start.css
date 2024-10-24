@@ -1,0 +1,72 @@
+
+body {
+  
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  
+  section {
+    padding: 2em;
+    margin: 1em;
+    flex: 1; /* i blocchi crescono  */
+    text-align: center; /* si utilizza per centrare il testo*/
+  }
+  
+  #green {
+    background-color: #8ffda7;
+    display: flex;
+    flex-direction: column;
+    order: 3;
+  }
+  
+  #orange {
+    background-color: #ffc788;
+    display: flex;
+    flex-direction: column;
+    order: 4;
+
+  }
+  
+  #yellow {
+    background-color: #ffff92;
+    display: flex;
+    flex-direction: column;
+    order: 1;
+  }
+  
+  #red {
+    background-color: #ff919c;
+    display: flex;
+    flex-direction: column;
+    order: 2;
+  }
+  
+  #blue {
+    background-color: #98d2ff;
+    display: flex;
+    flex-direction: column;
+    order: 5;
+  }
+  
+
+  ul {
+    padding: 0;
+    list-style: none; 
+    display: flex;
+    justify-content: center; /* lista posizionata al centro */
+    gap: 1em; /* Spazio tra elementi della lista */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  li {
+    background-color: white;
+    padding: 1em;
+    display: block;
+    margin: 1em;
+    flex: 1; /* gli elementi lista si adattano allo spazio */
+    display: flex;
+    flex-direction: column;
+  }
+  
